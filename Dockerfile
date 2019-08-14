@@ -1,4 +1,4 @@
 FROM openjdk:8
-ADD target/devopsproject.jar devopsproject.jar
+ADD target/devopsproject.jar  spring-boot-mvc-0.0.1-SNAPSHOT.jar
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "devopsproject.jar"]
+ENTRYPOINT ["java", "-jar", "spring-boot-mvc-0.0.1-SNAPSHOT.jar"]
